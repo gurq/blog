@@ -1,6 +1,6 @@
 ### Markdown Tutorial
 
-==This page is written by a Chinese programmer, please forgive me for my poor English. It's very grateful because you are willing to point out my mistakes, whether grammar mistakes or the improper expression in my article, thanks a lot.==
+==This page is written by a Chinese programmer, please forgive me for my poor English. It's very grateful if you are willing to point out my mistakes, whether grammar mistakes or the improper expression in my article, thanks a lot.==
 
 > Before we use Markdown，we should learn some basic and the most commonly used grammar
 

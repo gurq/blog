@@ -1,8 +1,12 @@
 ### Markdown Tutorial
 
-==This page is written by a Chinese programmer, please forgive me for my poor English. It's very grateful if you are willing to point out my mistakes, whether grammar mistakes or the improper expression in my article, thanks a lot.==
 
-> Before we use Markdown，we should learn some basic and the most commonly used grammar
+
+> ==:warning::warning::warning:This page is written by a Chinese programmer, please forgive me for my poor English. It's very grateful if you are willing to point out my mistakes, whether grammar mistakes or the improper expression in my article, thanks a lot.:warning::warning::warning:==
+
+
+
+> :bulb:Before we use Markdown，we should learn some basic and the most commonly used grammar
 
 ### 1. Headers
 
@@ -40,6 +44,8 @@ Use `>` to show quotes,  `>>` is used to show the second level quote in the firs
 
 1.  if you use both `>` and `>>` , when you want to use the first level out of the second level, you should input a new empty line, if not, it will also be the second quote
 2.  You can use many other symbol in quote, like emphasis 
+
+> :exclamation: Some editors do not support multiple levels of quotes, it is recommended not to use
 
 demo:
 
@@ -104,13 +110,15 @@ Use `[](link)` to show links
 
 demo:
 
-I think [xu.ci](https://xu.ci) is a really good blog 😊.
+I think [xu.ci](https://xu.ci) is a really good blog :kissing_heart:.
 
 ```
-I think [xu.ci](https://xu.ci) is a really good blog 😊.
+I think [xu.ci](https://xu.ci) is a really good blog :kissing_heart:.
 ```
 
 ### 6. Math formulas
+
+> :exclamation: The grammar of formula supported by some editors is not the same, here is Typora as an example
 
 Use `$$` to show math formulas
 
@@ -166,7 +174,15 @@ Use `- [ ]` and `- [x]` to show todo lists.
 *italic*
 ```
 
+-  Use `***` to show ***both bold and italic*** 
+
+```
+***both bold and italic***
+```
+
 -  Use `==` to show ==highlight==
+
+> :exclamation: Some editors do not support highlighting
 
 ```
 ==highlight==
@@ -271,3 +287,8 @@ Left   | Center | Right
 Left   | Center | Right
 ```
 
+### 13. emoji
+
+Use `:emoji code:` to show emoji in Markdown
+
+[Click here to see all of emoji codes](https://www.webfx.com/tools/emoji-cheat-sheet/)
